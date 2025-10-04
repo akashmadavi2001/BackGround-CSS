@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-color: #001818;
+}
+
+marquee {
+    height: 100vh;
+}
+
+.balling {
+    position: absolute;
+}
+
+.ball {
+    opacity: 10%;
+    border-radius: 50%;
+    background: radial-gradient(aqua, #ffffff00);
+    animation: animation 30s;
+}
+
+@keyframes animation {
+    100% {
+        filter: hue-rotate(360deg);
+    }
+}
+.ball1 {
+    width: 500px;
+    height: 500px;
+}
+
+.ball2 {
+    width: 700px;
+    height: 700px;
+}
+
+.ball3 {
+    width: 600px;
+    height: 600px;
+}
+
+.ball4 {
+    width: 800px;
+    height: 800px;
+}
